@@ -1,10 +1,10 @@
 body{
     margin: 0;
-    overflow-x: hidden;
-    overflow-y: hidden;
+ overflow-x: hidden;
+    
 }
 
-#first{
+#first,#stats{
     
     background-color: #0f0e17;
 }
@@ -29,11 +29,12 @@ a.nav-link:hover{
     color: #ff8906;
 }
 .first-part{
-    margin: 6% 4%;
+    margin: 6% 4% ;
     text-align: center;
 }
+/* body color */
 .fpb{
-    padding: 2% 10% 8%;
+    padding: 2% 10%  ;
 }
 h1,h2,h3,h4,h5,h6{
     color: #fffffe;
@@ -46,7 +47,7 @@ p{
     text-align: left;
 }
 .box-2 img{
-    padding: 0% 12%;
+    padding: 1% 12%;
     height:350px;
     text-align: center;
      
@@ -54,11 +55,11 @@ p{
 .box-1{
  padding: 10% 0;
 }
-.btn{
+.btna{
     background-color:#ff8906 ;
     color: #fffffe;
 }
-.btn:hover{
+.btna:hover{
     background-color: white;
 }
 .type-container{
@@ -92,12 +93,40 @@ p{
     animation: cursor 1s ease-in-out infinite;
 }
 #feature{
-    background-color: #0f0e17;
+  
+ text-align: center;
 }
+.item h1{
+    color: black;
+    margin-top:2rem;
+}
+#input {
+ 
+    background-color: #0f0e17;
+    margin: 2rem 0;
+    
+    color: #fffffe;
+    font-weight: bolder;
+    font-size: 15px;
+  }
 
-
-
-
+  .bt{
+    background-color:#0f0e17 ;
+    color: #fffffe;
+    padding: 1rem;
+    margin-bottom: 2rem;
+}
+.bt:hover{
+    background-color:#ff8906;
+    color:white;
+   
+    
+}
+.bt:hover a{
+    color: white;
+   
+    
+} 
 
 
 
