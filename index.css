@@ -86,14 +86,36 @@ p{
     transform: translateY(-50%);
 }
 
-.typewriter span {
+.typewriter span
+ {
     color: var(--text-color);
     text-transform: uppercase;
     padding: 10px;
     border-right: solid var(--text-color) 10px; 
     animation: cursor 1s ease-in-out infinite;
 }
+#feature{
+    background-color: #0f0e17;
+}
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* media queries for mobile */
 @keyframes cursor {
     from { border-color: var(--text-color); }
     to { border-color: transparent; }
@@ -101,6 +123,15 @@ p{
 
 @media (max-width: 576px) {
     .typewriter { font-size: 24px; }
+    img{
+        height: 300px;
+        width: 300px;
+        overflow-y:hidden;
+        overflow-x: hidden;
+        padding: 1rem;
+
+    }
+    
 }
 @media (max-width: 768px) {
     .typewriter { font-size: 36px; }
